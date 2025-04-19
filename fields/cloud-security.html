@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Security | CyberSecurity Simplified</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .field-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem 2rem;
+        }
+
+        .field-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .field-header i {
+            font-size: 4rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .field-content {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 2rem;
+        }
+
+        .main-content {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .sidebar {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            height: fit-content;
+        }
+
+        .skills-list, .certifications-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li, .certifications-list li {
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            background-color: var(--bg-color);
+            border-radius: 5px;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+        }
+
+        .back-button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .field-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">CyberSecurity Simplified</div>
+        <div class="nav-links">
+            <a href="../index.html#what-is-cybersecurity">What is Cybersecurity?</a>
+            <a href="../index.html#cybersecurity-fields">Fields</a>
+            <a href="../index.html#roadmap">Roadmap</a>
+            <a href="../index.html#quiz">Quiz</a>
+            <a href="../index.html#resources">Resources</a>
+        </div>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <em>Dark Mode</em>
+        </div>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div class="field-detail">
+        <a href="../index.html#cybersecurity-fields" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Fields
+        </a>
+
+        <div class="field-header">
+            <i class="fas fa-cloud"></i>
+            <h1>Cloud Security</h1>
+            <p class="subtitle">Securing cloud-based systems and infrastructure</p>
+        </div>
+
+        <div class="field-content">
+            <div class="main-content">
+                <h2>Overview</h2>
+                <p>Cloud Security focuses on protecting cloud-based systems, data, and infrastructure from cyber threats. It involves implementing security measures and best practices for cloud environments.</p>
+
+                <h2>Key Responsibilities</h2>
+                <ul>
+                    <li>Implement cloud security controls</li>
+                    <li>Manage cloud access and identity</li>
+                    <li>Monitor cloud environments</li>
+                    <li>Secure cloud data storage</li>
+                    <li>Ensure compliance with cloud security standards</li>
+                </ul>
+
+                <h2>Career Path</h2>
+                <p>Cloud Security professionals can advance through various roles:</p>
+                <ul>
+                    <li>Cloud Security Engineer</li>
+                    <li>Cloud Security Architect</li>
+                    <li>Cloud Security Consultant</li>
+                    <li>Cloud Security Manager</li>
+                </ul>
+
+                <h2>Learning Resources</h2>
+                <ul>
+                    <li><a href="https://cloudsecurityalliance.org/">Cloud Security Alliance</a></li>
+                    <li><a href="https://aws.amazon.com/security/">AWS Security</a></li>
+                    <li><a href="https://learn.microsoft.com/en-us/security/">Microsoft Security</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar">
+                <h3>Required Skills</h3>
+                <ul class="skills-list">
+                    <li>Cloud platforms (AWS, Azure, GCP)</li>
+                    <li>Cloud security architecture</li>
+                    <li>Identity and access management</li>
+                    <li>Cloud compliance frameworks</li>
+                    <li>Container security</li>
+                    <li>Cloud monitoring tools</li>
+                </ul>
+
+                <h3>Recommended Certifications</h3>
+                <ul class="certifications-list">
+                    <li>Certified Cloud Security Professional (CCSP)</li>
+                    <li>AWS Certified Security - Specialty</li>
+                    <li>Microsoft Certified: Azure Security Engineer</li>
+                    <li>Google Professional Cloud Security Engineer</li>
+                </ul>
+
+                <h3>Average Salary Range</h3>
+                <p>$90,000 - $180,000 per year</p>
+
+                <h3>Job Outlook</h3>
+                <p>High demand with rapid growth in cloud adoption</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Security | CyberSecurity Simplified</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .field-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem 2rem;
+        }
+
+        .field-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .field-header i {
+            font-size: 4rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .field-content {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 2rem;
+        }
+
+        .main-content {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .sidebar {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            height: fit-content;
+        }
+
+        .skills-list, .certifications-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li, .certifications-list li {
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            background-color: var(--bg-color);
+            border-radius: 5px;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+        }
+
+        .back-button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .field-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">CyberSecurity Simplified</div>
+        <div class="nav-links">
+            <a href="../index.html#what-is-cybersecurity">What is Cybersecurity?</a>
+            <a href="../index.html#cybersecurity-fields">Fields</a>
+            <a href="../index.html#roadmap">Roadmap</a>
+            <a href="../index.html#quiz">Quiz</a>
+            <a href="../index.html#resources">Resources</a>
+        </div>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <em>Dark Mode</em>
+        </div>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div class="field-detail">
+        <a href="../index.html#cybersecurity-fields" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Fields
+        </a>
+
+        <div class="field-header">
+            <i class="fas fa-mobile-alt"></i>
+            <h1>Mobile Security</h1>
+            <p class="subtitle">Protecting mobile devices and applications</p>
+        </div>
+
+        <div class="field-content">
+            <div class="main-content">
+                <h2>Overview</h2>
+                <p>Mobile Security focuses on protecting mobile devices, applications, and data from various threats. It encompasses both device security and application security in mobile environments.</p>
+
+                <h2>Key Responsibilities</h2>
+                <ul>
+                    <li>Secure mobile application development</li>
+                    <li>Implement mobile device management</li>
+                    <li>Conduct mobile security assessments</li>
+                    <li>Protect mobile data and communications</li>
+                    <li>Manage mobile device policies</li>
+                </ul>
+
+                <h2>Career Path</h2>
+                <p>Mobile Security professionals can advance through various roles:</p>
+                <ul>
+                    <li>Mobile Security Engineer</li>
+                    <li>Mobile Application Security Specialist</li>
+                    <li>Mobile Security Architect</li>
+                    <li>Mobile Security Consultant</li>
+                </ul>
+
+                <h2>Learning Resources</h2>
+                <ul>
+                    <li><a href="https://owasp.org/www-project-mobile-security-testing-guide/">OWASP Mobile Security Testing Guide</a></li>
+                    <li><a href="https://www.sans.org/courses/mobile-device-security/">SANS Mobile Device Security</a></li>
+                    <li><a href="https://developer.android.com/security">Android Security</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar">
+                <h3>Required Skills</h3>
+                <ul class="skills-list">
+                    <li>Mobile platform security (iOS, Android)</li>
+                    <li>Mobile application security</li>
+                    <li>Mobile device management</li>
+                    <li>Mobile threat analysis</li>
+                    <li>Secure mobile development</li>
+                    <li>Mobile penetration testing</li>
+                </ul>
+
+                <h3>Recommended Certifications</h3>
+                <ul class="certifications-list">
+                    <li>Certified Mobile Security Professional (CMSP)</li>
+                    <li>GIAC Mobile Device Security Analyst (GMOB)</li>
+                    <li>Certified Mobile Application Security Tester (CMAST)</li>
+                    <li>OSCP</li>
+                </ul>
+
+                <h3>Average Salary Range</h3>
+                <p>$80,000 - $160,000 per year</p>
+
+                <h3>Job Outlook</h3>
+                <p>Growing demand with increasing mobile device usage</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography | CyberSecurity Simplified</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .field-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem 2rem;
+        }
+
+        .field-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .field-header i {
+            font-size: 4rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .field-content {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 2rem;
+        }
+
+        .main-content {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .sidebar {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            height: fit-content;
+        }
+
+        .skills-list, .certifications-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li, .certifications-list li {
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            background-color: var(--bg-color);
+            border-radius: 5px;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+        }
+
+        .back-button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .field-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">CyberSecurity Simplified</div>
+        <div class="nav-links">
+            <a href="../index.html#what-is-cybersecurity">What is Cybersecurity?</a>
+            <a href="../index.html#cybersecurity-fields">Fields</a>
+            <a href="../index.html#roadmap">Roadmap</a>
+            <a href="../index.html#quiz">Quiz</a>
+            <a href="../index.html#resources">Resources</a>
+        </div>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <em>Dark Mode</em>
+        </div>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div class="field-detail">
+        <a href="../index.html#cybersecurity-fields" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Fields
+        </a>
+
+        <div class="field-header">
+            <i class="fas fa-lock"></i>
+            <h1>Cryptography</h1>
+            <p class="subtitle">The science of secure communication</p>
+        </div>
+
+        <div class="field-content">
+            <div class="main-content">
+                <h2>Overview</h2>
+                <p>Cryptography is the practice and study of techniques for secure communication in the presence of adversaries. It involves creating and analyzing protocols that prevent third parties from reading private messages.</p>
+
+                <h2>Key Responsibilities</h2>
+                <ul>
+                    <li>Design and implement cryptographic algorithms</li>
+                    <li>Develop secure communication protocols</li>
+                    <li>Analyze cryptographic systems for vulnerabilities</li>
+                    <li>Implement encryption and decryption systems</li>
+                    <li>Research new cryptographic techniques</li>
+                </ul>
+
+                <h2>Career Path</h2>
+                <p>Cryptography professionals can advance through various roles:</p>
+                <ul>
+                    <li>Cryptographic Engineer</li>
+                    <li>Security Researcher</li>
+                    <li>Cryptographic Analyst</li>
+                    <li>Chief Security Architect</li>
+                </ul>
+
+                <h2>Learning Resources</h2>
+                <ul>
+                    <li><a href="https://www.coursera.org/learn/crypto">Cryptography I (Stanford)</a></li>
+                    <li><a href="https://www.crypto101.io/">Crypto 101</a></li>
+                    <li><a href="https://www.schneier.com/cryptography/">Bruce Schneier's Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar">
+                <h3>Required Skills</h3>
+                <ul class="skills-list">
+                    <li>Mathematical foundations</li>
+                    <li>Algorithm design</li>
+                    <li>Programming (Python, C/C++)</li>
+                    <li>Number theory</li>
+                    <li>Protocol analysis</li>
+                    <li>Security implementation</li>
+                </ul>
+
+                <h3>Recommended Certifications</h3>
+                <ul class="certifications-list">
+                    <li>EC-Council Certified Encryption Specialist (ECES)</li>
+                    <li>Certified Cryptography Specialist (CCS)</li>
+                    <li>CISSP</li>
+                    <li>CompTIA Security+</li>
+                </ul>
+
+                <h3>Average Salary Range</h3>
+                <p>$90,000 - $180,000 per year</p>
+
+                <h3>Job Outlook</h3>
+                <p>Strong demand with growing importance in digital security</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html> 

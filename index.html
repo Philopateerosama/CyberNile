@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn cybersecurity fundamentals, career paths, and best practices in an interactive and engaging way.">
+    <title>CyberNile | Learn Cybersecurity Fundamentals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="transitions.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="logo.png" class="nav-logo">
+            <span><b><i>CyberNile</i></b></span>
+        </div>
+        <div class="nav-links">
+            <a href="#what-is-cybersecurity">What is Cybersecurity?</a>
+            <a href="#cybersecurity-fields">Fields</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#stay-updated">Stay Updated</a>
+            <a href="#resources">Resources</a>
+        </div>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <em>Dark Mode</em>
+        </div>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-intro">
+                    <span class="hero-badge">Welcome to</span>
+                    <h1 class="animate-text">CyberNile</h1>
+                    <p class="subtitle">Your gateway to understanding digital security</p>
+                </div>
+                
+                <div class="hero-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="feature-content">
+                            <span class="feature-number">100+</span>
+                            <span class="feature-label">Learning Resources</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <div class="feature-content">
+                            <span class="feature-number">8</span>
+                            <span class="feature-label">Career Paths</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="feature-content">
+                            <span class="feature-number">24/7</span>
+                            <span class="feature-label">Online Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="cyber-icon">
+                <div class="lock-body">
+                    <div class="keyhole"></div>
+                    <div class="lock-base"></div>
+                </div>
+                <div class="shield-outer"></div>
+                <div class="shield-inner"></div>
+                <div class="cyber-circles">
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-3"></div>
+                </div>
+                <div class="data-streams">
+                    <div class="stream stream-1"></div>
+                    <div class="stream stream-2"></div>
+                    <div class="stream stream-3"></div>
+                </div>
+            </div>
+            <div class="cyber-particles"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="what-is-cybersecurity" class="section">
+            <h2>What is Cybersecurity?</h2>
+            <div class="cybersecurity-intro">
+                <div class="intro-content">
+                    <p class="intro-text">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These attacks are usually aimed at:</p>
+                    <div class="attack-goals">
+                        <div class="goal-item">
+                            <i class="fas fa-lock-open"></i>
+                            <h4>Accessing</h4>
+                            <p>Gaining unauthorized access to sensitive information</p>
+                        </div>
+                        <div class="goal-item">
+                            <i class="fas fa-edit"></i>
+                            <h4>Changing</h4>
+                            <p>Modifying sensitive information</p>
+                        </div>
+                        <div class="goal-item">
+                            <i class="fas fa-trash-alt"></i>
+                            <h4>Destroying</h4>
+                            <p>Deleting critical data</p>
+                        </div>
+                        <div class="goal-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <h4>Extorting</h4>
+                            <p>Extracting money from users</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="importance-section">
+                    <h3>Why is Cybersecurity Important?</h3>
+                    <div class="importance-grid">
+                        <div class="importance-item">
+                            <i class="fas fa-globe"></i>
+                            <h4>Digital Transformation</h4>
+                            <p>As our world becomes increasingly digital, protecting our online presence becomes crucial.</p>
+                        </div>
+                        <div class="importance-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Data Protection</h4>
+                            <p>Personal and business data needs protection from sophisticated cyber threats.</p>
+                        </div>
+                        <div class="importance-item">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Growing Threats</h4>
+                            <p>Cyber attacks are becoming more frequent and sophisticated.</p>
+                        </div>
+                        <div class="importance-item">
+                            <i class="fas fa-balance-scale"></i>
+                            <h4>Compliance</h4>
+                            <p>Organizations must comply with data protection regulations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cyber-threats">
+                    <h3>Common Cyber Threats</h3>
+                    <div class="threats-grid">
+                        <div class="threat-card">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Phishing</h4>
+                            <p>Deceptive attempts to steal sensitive information by posing as trustworthy entities.</p>
+                            <ul class="threat-details">
+                                <li>Email scams</li>
+                                <li>Fake websites</li>
+                                <li>Social engineering</li>
+                            </ul>
+                        </div>
+                        <div class="threat-card">
+                            <i class="fas fa-bug"></i>
+                            <h4>Malware</h4>
+                            <p>Malicious software designed to damage or gain unauthorized access.</p>
+                            <ul class="threat-details">
+                                <li>Viruses</li>
+                                <li>Trojans</li>
+                                <li>Spyware</li>
+                            </ul>
+                        </div>
+                        <div class="threat-card">
+                            <i class="fas fa-lock"></i>
+                            <h4>Ransomware</h4>
+                            <p>Software that encrypts files and demands payment for decryption.</p>
+                            <ul class="threat-details">
+                                <li>File encryption</li>
+                                <li>System lockdown</li>
+                                <li>Data theft</li>
+                            </ul>
+                        </div>
+                        <div class="threat-card">
+                            <i class="fas fa-network-wired"></i>
+                            <h4>DDoS Attacks</h4>
+                            <p>Overwhelming systems with traffic to make them unavailable.</p>
+                            <ul class="threat-details">
+                                <li>Service disruption</li>
+                                <li>Network flooding</li>
+                                <li>Resource exhaustion</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="protection-section">
+                    <h3>Basic Protection Measures</h3>
+                    <div class="protection-grid">
+                        <div class="protection-item">
+                            <i class="fas fa-key"></i>
+                            <h4>Strong Passwords</h4>
+                            <p>Use complex, unique passwords and enable two-factor authentication.</p>
+                        </div>
+                        <div class="protection-item">
+                            <i class="fas fa-sync"></i>
+                            <h4>Regular Updates</h4>
+                            <p>Keep software and systems updated with the latest security patches.</p>
+                        </div>
+                        <div class="protection-item">
+                            <i class="fas fa-user-shield"></i>
+                            <h4>Security Software</h4>
+                            <p>Use antivirus and security tools to protect against threats.</p>
+                        </div>
+                        <div class="protection-item">
+                            <i class="fas fa-brain"></i>
+                            <h4>Security Awareness</h4>
+                            <p>Stay informed about current threats and best practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cybersecurity-fields" class="section">
+            <h2>Fields in Cybersecurity</h2>
+            <div class="fields-grid">
+                <div class="field-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Network Security</h3>
+                    <p>Protecting networks from unauthorized access and attacks</p>
+                    <a href="fields/network-security.html" class="learn-more slide-in">Learn More</a>
+                </div>
+                <div class="field-card">
+                    <i class="fas fa-user-secret"></i>
+                    <h3>Penetration Testing</h3>
+                    <p>Ethical hacking to identify vulnerabilities</p>
+                    <a href="fields/penetration-testing.html" class="learn-more slide-in">Learn More</a>
+                </div>
+                <div class="field-card">
+                    <i class="fas fa-virus-slash"></i>
+                    <h3>Malware Analysis</h3>
+                    <p>Studying malicious software to prevent attacks</p>
+                    <a href="fields/malware-analysis.html" class="learn-more slide-in">Learn More</a>
+                </div>
+                <div class="field-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>Cryptography</h3>
+                    <p>Securing information through encryption</p>
+                    <a href="fields/cryptography.html" class="learn-more slide-in">Learn More</a>
+                </div>
+                <div class="field-card">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Security Operations</h3>
+                    <p>Monitoring and responding to security incidents</p>
+                    <a href="fields/security-operations.html" class="learn-more slide-in">Learn More</a>
+                </div>
+                <div class="field-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Application Security</h3>
+                    <p>Securing software applications from threats</p>
+                    <a href="fields/application-security.html" class="learn-more slide-in">Learn More</a>
+                </div>
+                <div class="field-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Security</h3>
+                    <p>Protecting cloud-based systems and data</p>
+                    <a href="fields/cloud-security.html" class="learn-more slide-in">Learn More</a>
+                </div>
+                <div class="field-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Security</h3>
+                    <p>Securing mobile devices and applications</p>
+                    <a href="fields/mobile-security.html" class="learn-more slide-in">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="section">
+            <h2>Cybersecurity Roadmap: From Beginner to Professional</h2>
+            <p class="section-description">This comprehensive roadmap will guide you through the essential knowledge, skills, and courses needed to become a cybersecurity professional.</p>
+            <div class="roadmap-container">
+                <div class="roadmap-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h3>Foundational Knowledge</h3>
+                        <div class="step-duration">3-6 months</div>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check-circle"></i> Basic Computer Skills
+                                <ul class="specialization-paths">
+                                    <li>Operating Systems (Windows, Linux, macOS)</li>
+                                    <li>File systems and command-line basics</li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-check-circle"></i> Programming & Scripting
+                                <ul class="specialization-paths">
+                                    <li>Python (Most important for cybersecurity)</li>
+                                    <li>Bash Scripting (Linux automation)</li>
+                                    <li>PowerShell (Windows automation)</li>
+                                    <li>Optional: C/C++ (for reverse engineering)</li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-check-circle"></i> Networking Fundamentals
+                                <ul class="specialization-paths">
+                                    <li>TCP/IP Model, OSI Model</li>
+                                    <li>Subnetting, DNS, DHCP, VPN</li>
+                                    <li>Network Protocols (HTTP/S, FTP, SSH)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="step-resources">
+                            <h4>Recommended Resources:</h4>
+                            <ul>
+                                <li><a href="https://www.netacad.com/catalogs/learn/networking"><i class="fas fa-graduation-cap"></i> Cisco Networking Academy (Networking)</a></li>
+                                <li><a href="https://www.youtube.com/results?search_query=python"><i class="fas fa-code"></i>Python</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Core Cybersecurity Skills</h3>
+                        <div class="step-duration">6-12 months</div>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check-circle"></i> Cybersecurity Basics
+                                <ul class="specialization-paths">
+                                    <li>CIA Triad (Confidentiality, Integrity, Availability)</li>
+                                    <li>Threat Models, Attack Vectors, Vulnerabilities</li>
+                                    <li>Security Policies, Risk Management</li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-check-circle"></i> Operating System Security
+                                <ul class="specialization-paths">
+                                    <li>Linux Security (Permissions, SELinux)</li>
+                                    <li>Windows Security (Active Directory)</li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-check-circle"></i> Ethical Hacking Fundamentals
+                                <ul class="specialization-paths">
+                                    <li>Footprinting & Reconnaissance</li>
+                                    <li>Scanning & Enumeration</li>
+                                    <li>Basic Exploitation Techniques</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="step-resources">
+                            <h4>Recommended Resources:</h4>
+                            <ul>
+                                <li><a href="https://www.netacad.com/catalogs/learn/cybersecurity"><i class="fas fa-certificate"></i>Cisco Networking Academy (CyberSecurity) </a></li>
+                                <li><a href="https://tryhackme.com/"><i class="fas fa-laptop-code"></i> TryHackMe</a></li>
+                                <li><a href="https://www.hackthebox.com/"><i class="fas fa-laptop-code"></i> Hack The Box</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3>Specialization</h3>
+                        <div class="step-duration">1-2 years</div>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check-circle"></i> Choose Your Path:
+                                <ul class="specialization-paths">
+                                    <li>Offensive Security (Red Team / Penetration Testing)</li>
+                                    <li>Defensive Security (Blue Team / SOC Analyst)</li>
+                                    <li>Malware Analysis & Reverse Engineering</li>
+                                    <li>Cloud Security (AWS, Azure, GCP)</li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-check-circle"></i> Advanced Topics
+                                <ul class="specialization-paths">
+                                    <li>Advanced Exploitation</li>
+                                    <li>SIEM Tools & Threat Hunting</li>
+                                    <li>Malware Analysis & Debugging</li>
+                                    <li>Cloud Security Architecture</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="step-resources">
+                            <h4>Path-Specific Certifications:</h4>
+                            <ul>
+                                <li><a ><i class="fas fa-award"></i> OSCP (Offensive Security)</a></li>
+                                <li><a ><i class="fas fa-award"></i> CISSP (Defensive Security)</a></li>
+                                <li><a ><i class="fas fa-award"></i> GREM (Malware Analysis)</a></li>
+                                <li><a ><i class="fas fa-award"></i> AWS Security Specialty</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>Advanced & Professional Development</h3>
+                        <div class="step-duration">Ongoing</div>
+                        <ul class="step-details">
+                            <li><i class="fas fa-check-circle"></i> Professional Experience
+                                <ul class="specialization-paths">
+                                    <li>Bug Bounty Programs</li>
+                                    <li>CTF Competitions</li>
+                                    <li>Open-Source Contributions</li>
+                                </ul>
+                            </li>
+                            <li><i class="fas fa-check-circle"></i> Continuous Learning
+                                <ul class="specialization-paths">
+                                    <li>Security Blogs & News</li>
+                                    <li>Industry Conferences</li>
+                                    <li>Professional Networking</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="step-resources">
+                            <h4>Professional Development:</h4>
+                            <ul>
+                                <li><a ><i class="fas fa-users"></i> Join Security Communities</a></li>
+                                <li><a ><i class="fas fa-blog"></i> Follow Security Blogs</a></li>
+                                <li><a ><i class="fas fa-calendar-alt"></i> Attend Conferences</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="roadmap-note">
+                <i class="fas fa-info-circle"></i>
+                <p>Build a home lab for practice, create a GitHub portfolio with your projects, and remember that cybersecurity is a field of continuous learning - stay curious and keep exploring!</p>
+            </div>
+        </section>
+
+        <section id="stay-updated" class="section">
+            <h2>Stay Updated in Cybersecurity</h2>
+            <p class="section-description">The cybersecurity landscape evolves rapidly. Here's how to stay informed about the latest threats, tools, and trends.</p>
+            
+            <div class="updates-grid">
+                <div class="update-card">
+                    <div class="card-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>News & Blogs</h3>
+                    <div class="card-content">
+                        <ul class="update-sources">
+                            <li>
+                                <a href="https://www.bleepingcomputer.com/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Bleeping Computer
+                                </a>
+                                <span class="source-description">Daily security news and technical coverage</span>
+                            </li>
+                            <li>
+                                <a href="https://krebsonsecurity.com/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Krebs on Security
+                                </a>
+                                <span class="source-description">In-depth security news and investigation</span>
+                            </li>
+                            <li>
+                                <a href="https://thehackernews.com/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    The Hacker News
+                                </a>
+                                <span class="source-description">Latest cybersecurity news and analysis</span>
+                            </li>
+                            <li>
+                                <a href="https://thecyberwire.com/podcasts/daily-podcast" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    CyberWire Daily
+                                </a>
+                                <span class="source-description">Latest cybersecurity news</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="update-card">
+                    <div class="card-icon">
+                        <i class="fas fa-podcast"></i>
+                    </div>
+                    <h3>Podcasts & Videos</h3>
+                    <div class="card-content">
+                        <ul class="update-sources">
+                            <li>
+                                <a href="https://darknetdiaries.com/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Darknet Diaries
+                                </a>
+                                <span class="source-description">True stories from the dark side of the Internet</span>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/c/LiveOverflow" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    LiveOverflow
+                                </a>
+                                <span class="source-description">Educational hacking and security videos</span>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/c/JohnHammond010" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    John Hammond
+                                </a>
+                                <span class="source-description">Practical cybersecurity tutorials and walkthroughs</span>
+                            </li>
+                            <li>
+                                <a href="http://www.youtube.com/@Zigoo0" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Ibrahim Hegazy (Zigoo0)
+                                </a>
+                                <span class="source-description">Expert Arabic cybersecurity content and penetration testing tutorials</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="update-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Communities & Forums</h3>
+                    <div class="card-content">
+                        <ul class="update-sources">
+                            <li>
+                                <a href="https://www.reddit.com/r/netsec/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    r/netsec
+                                </a>
+                                <span class="source-description">Technical security discussions and news</span>
+                            </li>
+                            <li>
+                                <a href="https://security.stackexchange.com/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Security Stack Exchange
+                                </a>
+                                <span class="source-description">Q&A for information security professionals</span>
+                            </li>
+                            <li>
+                                <a href="https://owasp.org/www-community/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    OWASP Community
+                                </a>
+                                <span class="source-description">Leading application security community with tools, documentation, and best practices</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="update-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Threat Intelligence</h3>
+                    <div class="card-content">
+                        <ul class="update-sources">
+                            <li>
+                                <a href="https://www.cisa.gov/news-updates" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    CISA Updates
+                                </a>
+                                <span class="source-description">Government security alerts and bulletins</span>
+                            </li>
+                            <li>
+                                <a href="https://www.virustotal.com/gui/home/upload" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    VirusTotal Blog
+                                </a>
+                                <span class="source-description">Malware analysis and threat detection</span>
+                            </li>
+                            <li>
+                                <a href="https://attack.mitre.org/resources/updates/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    MITRE ATT&CK
+                                </a>
+                                <span class="source-description">Latest attack techniques and tactics</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="update-tips">
+                <h3>Pro Tips for Staying Current</h3>
+                <ul class="tips-list">
+                    <li>
+                        <i class="fas fa-rss"></i>
+                        <span>Use RSS feeds to aggregate security news</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Set aside dedicated time each week for learning</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-users"></i>
+                        <span>Follow security researchers on social media</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-hands-helping"></i>
+                        <span>Participate in security communities and discussions</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="resources" class="section">
+            <h2>Learning Resources</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Free Courses</h3>
+                    <ul>
+                        <li><a href="https://roadmap.sh/cyber-security" target="_blank">roadmap.sh</a></li>
+                        <li><a href="https://www.cybrary.it/catalog/">Cybrary</a></li>
+                        <li><a href="https://www.sans.org/cyber-security-courses/free/">SANS Free Resources</a></li>
+                        <li><a href="https://www.coursera.org/browse/computer-science/security">Coursera</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Practice Platforms</h3>
+                    <ul>
+                        <li><a href="https://www.hackthebox.com/">HackTheBox</a></li>
+                        <li><a href="https://tryhackme.com/">TryHackMe</a></li>
+                        <li><a href="https://www.vulnhub.com/">VulnHub</a></li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>CompTIA Security+</li>
+                        <li>CEH (Certified Ethical Hacker)</li>
+                        <li>CISSP (Certified Information Systems Security Professional)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="https://www.nist.gov/cybersecurity">NIST</a></li>
+                    <li><a href="https://www.sans.org/">SANS Institute</a></li>
+                    <li><a href="https://www.cybrary.it/">Cybrary</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CyberNile. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Security | CyberSecurity Simplified</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .field-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 6rem 2rem 2rem;
+        }
+
+        .field-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .field-header i {
+            font-size: 4rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .field-content {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 2rem;
+        }
+
+        .main-content {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .sidebar {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            height: fit-content;
+        }
+
+        .skills-list, .certifications-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li, .certifications-list li {
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+            background-color: var(--bg-color);
+            border-radius: 5px;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+        }
+
+        .back-button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .field-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">CyberSecurity Simplified</div>
+        <div class="nav-links">
+            <a href="../index.html#what-is-cybersecurity">What is Cybersecurity?</a>
+            <a href="../index.html#cybersecurity-fields">Fields</a>
+            <a href="../index.html#roadmap">Roadmap</a>
+            <a href="../index.html#quiz">Quiz</a>
+            <a href="../index.html#resources">Resources</a>
+        </div>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round"></div>
+            </label>
+            <em>Dark Mode</em>
+        </div>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <div class="field-detail">
+        <a href="../index.html#cybersecurity-fields" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Fields
+        </a>
+
+        <div class="field-header">
+            <i class="fas fa-shield-alt"></i>
+            <h1>Network Security</h1>
+            <p class="subtitle">Protecting networks from unauthorized access and attacks</p>
+        </div>
+
+        <div class="field-content">
+            <div class="main-content">
+                <h2>Overview</h2>
+                <p>Network security focuses on protecting networks from unauthorized access, misuse, or theft. It involves implementing both hardware and software solutions to secure the network infrastructure.</p>
+
+                <h2>Key Responsibilities</h2>
+                <ul>
+                    <li>Design and implement network security measures</li>
+                    <li>Monitor network traffic for suspicious activity</li>
+                    <li>Configure and maintain firewalls and intrusion detection systems</li>
+                    <li>Conduct security assessments and vulnerability testing</li>
+                    <li>Respond to security incidents and breaches</li>
+                </ul>
+
+                <h2>Career Path</h2>
+                <p>Network security professionals typically start as network administrators or security analysts and can progress to roles such as:</p>
+                <ul>
+                    <li>Network Security Engineer</li>
+                    <li>Security Architect</li>
+                    <li>Chief Information Security Officer (CISO)</li>
+                </ul>
+
+                <h2>Learning Resources</h2>
+                <ul>
+                    <li><a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html">Cisco CCNA Security</a></li>
+                    <li><a href="https://www.comptia.org/certifications/security">CompTIA Security+</a></li>
+                    <li><a href="https://www.sans.org/courses/network-security-essentials/">SANS Network Security Essentials</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar">
+                <h3>Required Skills</h3>
+                <ul class="skills-list">
+                    <li>Network protocols (TCP/IP, DNS, HTTP)</li>
+                    <li>Firewall configuration</li>
+                    <li>Intrusion detection/prevention</li>
+                    <li>VPN setup and management</li>
+                    <li>Network monitoring tools</li>
+                    <li>Security assessment tools</li>
+                </ul>
+
+                <h3>Recommended Certifications</h3>
+                <ul class="certifications-list">
+                    <li>CCNA Security</li>
+                    <li>CompTIA Network+</li>
+                    <li>CISSP</li>
+                    <li>CEH</li>
+                </ul>
+
+                <h3>Average Salary Range</h3>
+                <p>$70,000 - $150,000 per year</p>
+
+                <h3>Job Outlook</h3>
+                <p>High demand with 31% growth projected through 2029</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html> 
